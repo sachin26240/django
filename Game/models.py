@@ -40,7 +40,7 @@ class Guess:
              (self.n[6][0], self.n[6][1], self.n[6][2]), (self.n[7][0], self.n[7][1], self.n[7][2]), (self.n[8][0], self.n[8][1], self.n[8][2]), (self.n[9][0], self.n[9][1], self.n[9][2]), (self.n[10][0], self.n[10][1], self.n[10][2]), (self.n[11][0], self.n[11][1], self.n[11][2])]
         G.add_weighted_edges_from(E)
 
-        pos = nx.circular_layout(G)
+        pos = nx.spiral_layout(G)
 
         options = {
             'node_color': 'red',

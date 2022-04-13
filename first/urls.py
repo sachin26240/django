@@ -22,5 +22,6 @@ urlpatterns = [
     path('sachin/',include('calc.urls')),
     path('miniproject/',include('miniproject.urls')),
     path('Game/',include('Game.urls')),
+    path('Music/',include('Music.urls')),
     path('admin/', admin.site.urls),
 ]
